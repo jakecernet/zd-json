@@ -3,6 +3,7 @@
 		"1": {
 			"title": "Dihanje in krvni obtok",
 			"description": "ocena stopnje samooskrbe pacienta",
+			"url": "dihanje-krvni-obtok",
 			"subcategories": {
 				"1.1": {
 					"title": "Pulz",
@@ -116,6 +117,7 @@
 		"2": {
 			"title": "Aktivnosti zdravstvene nege pri življenski aktivnosti dihanja in krvni obtok",
 			"description": "hello people",
+			"url": "aktivnosti-zdravstvene-nege",
 			"subcategories": {
 				"2.1": {
 					"title": "Merjenje dihanja",
@@ -229,6 +231,7 @@
 		"3": {
 			"title": "Random shit",
 			"description": "Ocena stopnje samooskrbe pacienta",
+			"url": "random-shit",
 			"subcategories": {
 				"1.1": {
 					"title": "Pulz",

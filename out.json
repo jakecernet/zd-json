@@ -1,0 +1,245 @@
+{
+  "lists": {
+    "seznam1": {
+      "title": "Seznam 1",
+      "description": "Lorem ipsum 1",
+      "url": "seznam1",
+      "categories": {
+        "1": {
+          "title": "Dihanje in krvni obtok",
+          "description": "ocena stopnje samooskrbe pacienta",
+          "url": "dihanje-krvni-obtok",
+          "subcategories": {
+            "1.1": {
+              "title": "Pulz",
+              "description": null,
+              "elements": {
+                "1.1.1": {
+                  "title": "Pulz (frekvenca)",
+                  "unit": "utripov/minuto",
+                  "value": "52",
+                  "hint": "52",
+                  "type": "str"
+                }
+              }
+            },
+            "1.2": {
+              "title": "Krvni tlak",
+              "description": null,
+              "elements": {
+                "1.2.1": {
+                  "title": "Krvni tlak (izmerjena vrednost)",
+                  "unit": "mmHg",
+                  "value": "109/56",
+                  "hint": "109/56",
+                  "type": "str"
+                },
+                "1.2.2": {
+                  "title": "Krvni tlak (stanje vrednosti)",
+                  "unit": null,
+                  "value": "hipotenzija",
+                  "hint": "hipotenzija",
+                  "type": "str",
+                  "options": [
+                    "hipotenzija",
+                    "normalen krvni tlak",
+                    "hipertenzija"
+                  ],
+                  "option_type": "one"
+                },
+                "1.2.3": {
+                  "title": "Vrsta meritev",
+                  "unit": null,
+                  "value": "elektronski merilec",
+                  "hint": "elektronski merilec",
+                  "type": "str",
+                  "options": [
+                    "elektronski merilec",
+                    "ročni merilec"
+                  ],
+                  "option_type": "one"
+                }
+              }
+            },
+            "1.3": {
+              "title": "SpO2",
+              "description": null,
+              "elements": {
+                "1.3.1": {
+                  "title": "Izmerjena vrednost SpO2",
+                  "unit": "%",
+                  "value": "93",
+                  "hint": "93",
+                  "type": "str"
+                },
+                "1.3.2": {
+                  "title": "Stanje vrednosti",
+                  "unit": null,
+                  "value": "znižana vrednost",
+                  "hint": "znižana vrednost",
+                  "type": "str",
+                  "options": [
+                    "znižana vrednost",
+                    "normalna vrednost",
+                    "povišana vrednost"
+                  ],
+                  "option_type": "one"
+                }
+              }
+            },
+            "1.4": {
+              "title": "Aplikacija kisika",
+              "description": null,
+              "elements": {
+                "1.4.1": {
+                  "title": "Predpisana koncentracija O2",
+                  "unit": "%",
+                  "value": "Default string value",
+                  "hint": null,
+                  "type": "str"
+                },
+                "1.4.2": {
+                  "title": "Izbrani pripomoček za aplikacijo kisika",
+                  "unit": null,
+                  "value": "dihalna maska",
+                  "hint": "dihalna maska",
+                  "type": "str",
+                  "options": [
+                    "dihalna maska",
+                    "kanila",
+                    "navaden nosnik"
+                  ],
+                  "option_type": "one"
+                },
+                "1.4.3": {
+                  "title": "Drugo",
+                  "unit": null,
+                  "value": "nima aplikacije kisika",
+                  "hint": "nima aplikacije kisika",
+                  "type": "str"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "Aktivnosti zdravstvene nege pri življenski aktivnosti dihanja in krvni obtok",
+          "description": "hello people",
+          "url": "aktivnosti-zdravstvene-nege",
+          "subcategories": {
+            "2.1": {
+              "title": "Merjenje dihanja",
+              "description": null,
+              "elements": {
+                "2.1.1": {
+                  "title": "Način merjenja",
+                  "unit": null,
+                  "value": "inspekcija",
+                  "hint": "inspekcija",
+                  "type": "str",
+                  "options": [
+                    "inspekcija",
+                    "palpacija",
+                    "auskultacija"
+                  ],
+                  "option_type": "multiple"
+                }
+              }
+            },
+            "2.2": {
+              "title": "Merjenje krvnega tlaka",
+              "description": null,
+              "elements": {
+                "2.2.1": {
+                  "title": "Metoda merjenja",
+                  "unit": null,
+                  "value": "elektronski merilec",
+                  "hint": "elektronski merilec",
+                  "type": "str",
+                  "options": [
+                    "elektronski merilec",
+                    "ročni merilec"
+                  ],
+                  "option_type": "multiple"
+                }
+              }
+            },
+            "2.3": {
+              "title": "Merjenje pulza",
+              "description": null,
+              "elements": {
+                "2.3.1": {
+                  "title": "Metoda merjenja pulza",
+                  "unit": null,
+                  "value": "palpacija in pulzni oksimeter",
+                  "hint": "palpacija in pulzni oksimeter",
+                  "type": "str",
+                  "options": [
+                    "palpacija",
+                    "pulzni oksimeter",
+                    "auskultacija",
+                    "elektrokardiogram"
+                  ],
+                  "option_type": "multiple"
+                }
+              }
+            },
+            "2.4": {
+              "title": "Merjenje SpO2 (pulzna oksimetrija)",
+              "description": null,
+              "elements": {
+                "2.4.1": {
+                  "title": "SpO2 izmerjen",
+                  "unit": null,
+                  "value": true,
+                  "hint": "true",
+                  "type": "bool"
+                }
+              }
+            },
+            "2.5": {
+              "title": "Sporočanje in dokumentiranje aktivnosti v zvezi z dihanjem in krvnim obtokom",
+              "description": null,
+              "elements": {
+                "2.5.1": {
+                  "title": "Izmerjene vrednosti",
+                  "unit": null,
+                  "value": "temperaturni list",
+                  "hint": "temperaturni list",
+                  "type": "str",
+                  "options": [
+                    "temperaturni list",
+                    "zdravstvena dokumentacija",
+                    "zdravstvena kartoteka",
+                    "temperaturni list",
+                    "verbalno sporočeno medicinski sestri"
+                  ],
+                  "option_type": "multiple"
+                }
+              }
+            },
+            "2.6": {
+              "title": "Higiensko vzdrževanje pripomočkov v zvezi z dihanjem in krvnim obtokom",
+              "description": null,
+              "elements": {
+                "2.6.1": {
+                  "title": "Oskrba pripomočkov",
+                  "unit": null,
+                  "value": "čiščenje pripomočka",
+                  "hint": "čiščenje pripomočka",
+                  "type": "str",
+                  "options": [
+                    "čiščenje pripomočka",
+                    "dezinfekcija pripomočka",
+                    "sterilizacija pripomočka"
+                  ],
+                  "option_type": "multiple"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

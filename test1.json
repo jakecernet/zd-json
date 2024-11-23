@@ -14,7 +14,7 @@
 							"title": "Pulz",
 							"description": null,
 							"elements": {
-								"1": {
+								"1.1.1": {
 									"title": "Pulz (frekvenca)",
 									"unit": "utripov/minuto",
 									"value": null,

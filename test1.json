@@ -191,7 +191,7 @@
 								"2.4.1": {
 									"title": "SpO2 izmerjen",
 									"unit": null,
-									"value": true,
+									"value": false,
 									"hint": "true",
 									"type": "bool"
 								}

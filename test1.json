@@ -1,5 +1,4 @@
 {
-	"lists": {
 		"seznam1": {
 			"title": "Seznam 1",
 			"description": "Lorem ipsum 1",
@@ -241,5 +240,4 @@
 				}
 			}
 		}
-	}
 }

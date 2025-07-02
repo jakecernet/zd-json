@@ -1,8 +1,8 @@
 {
-	"seznam1": {
+	"ukc_praksa": {
 		"title": "Poročilo za PUD UKC Ljubljana",
 		"description": "To je poročilo, ki ga morate izpolniti do 4. 3. in bo vplivalo na vašo končno oceno pri predmetu Zdravstvena vzgoja.",
-		"url": "seznam1",
+		"url": "ukc_praksa",
 		"categories": {
 			"1": {
 				"title": "Dihanje in krvni obtok",
